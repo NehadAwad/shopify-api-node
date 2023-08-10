@@ -23,8 +23,8 @@ const fetchOrders = async () => {
 
         console.log(response.data)
 
-        // azizulhakim.0212@gmail.com
-        // 2Spkd9H:c)uC@C-
+        // azizulhakim007.0212@gmail.com
+        // 2Spkd9H:c)uC@C-007
 
         // if (response.data.orders) {
         //     const orders = response.data.orders.map(order => {
