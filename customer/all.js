@@ -2,8 +2,9 @@ const axios = require('axios');
 
 const API_ACCESS_TOKEN = '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';
 const STORE_URL = 'https://nehad007.myshopify.com';
+const id = '7133597270328';
 
-const fetchAllCustomers = async () => {
+const fetchAllCustomers = async (id) => {
     try {
         const response = await axios.get(`${STORE_URL}/admin/api/2023-07/customers.json`, {
             headers: {
@@ -30,4 +31,4 @@ const fetchAllCustomers = async () => {
     }
 }
 
-fetchAllCustomers();
+fetchAllCustomers(id);
